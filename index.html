@@ -29,12 +29,12 @@
 </head>
 <body class="font-lato">
 
-  <header>
+  <header class="">
       <!-- nav for mobile -->
    
 
     <!-- nav bar for medium screen-->
-    <nav class="md:max-w-screen-xl md:mx-auto mt-6">
+    <nav class="md:max-w-screen-xl  md:mx-auto mt-6">
       <div class="navbar bg-red-500 rounded-full">
           <div class="navbar-start">
               <ul  class=" menu-sm flex mt-3  text-white pb-3  rounded-box ">
@@ -53,14 +53,14 @@
 
           <div class="navbar-end ">
               
-                  <input class="md:px-7  px-1 md:py-3 rounded-full" type="search" placeholder="scarch hare">
+                  <input class="md:px-7 flex  px-1 md:py-3 rounded-full" type="search" placeholder="search">
                 
          
 
                
           </div>
         </div>
-  </nav>
+
 
   <!-- header baner -->
 
@@ -68,7 +68,7 @@
 
      
    
-      <div class="carousel relative md:max-w-screen-xl md:ml-32 mt-12">
+      <div class="carousel relative max-w-screen-xl  mt-12">
 
       
 
@@ -112,18 +112,19 @@
               <a href="#slide3" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
-          </div>
-          <div class="absolute md:left-[400px] md:top-[200px]  text-center text-white"> <h2 class="font-extrabold text-4xl">Exotic tastes at your doorstep</h2>
+            <div class="absolute md:left-[400px] md:top-[200px]  text-center text-white"> <h2 class="font-extrabold text-4xl">Exotic tastes at your doorstep</h2>
               <p class="my-5">We supply highly quality organic products</p>
               <button class="btn btn-error">Shop Now</button>
             </div>
+          </div>
+          
         </div>
 
   </section>
 
   <!-- over flow imgs -->
 
-   <div class="max-w-screen-xl grid grid-cols-2 md:relative -top-10 mx-auto rounded-sm md:grid md:grid-cols-5 md:px-3 md:py-2 bg-slate-200 md:max-w-2xl gap-7">
+   <div class="max-w-screen-xl grid grid-cols-2 md:relative -top-16 mx-auto rounded-sm md:grid md:grid-cols-5 md:px-3 md:py-2 shadow-lg bg-slate-100 md:max-w-2xl gap-7">
     <img src="./images/fruit1.png" alt="">
     <img src="./images/fruit2.png" alt="">
     <img src="./images/fruit3.png" alt="">
@@ -134,7 +135,7 @@
   </header>
 
 
-  <main class="md:container mx-auto">
+  <main class="">
 
      <!-- date time section -->
 
@@ -279,7 +280,8 @@
      <!-- team section-->
 
      <section>
-      <div class=" max-w-screen-xl mx-auto md:[480px] pt-4 pb-4 bg-gray-400 my-20">
+      <div class="max-w-screen-xl mx-auto md:[480px] pt-4 pb-4  my-20"
+       style="background-image: url(./images/team.png);">
          
         <div class="text-center mt-3 pt-10">
           <h1 class="text-4xl font-extrabold text-white ">Meet the team section</h1>
@@ -296,8 +298,8 @@
             <img src="./images/member1.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Awlad Hossain</h2>
-            <p>Fruits Expert</p>
+            <h2 class="card-title text-white">Awlad Hossain</h2>
+            <p class="text-white">Fruits Expert</p>
             <div class="flex ">
               <img class="px-2" src="./images/twitter (1) 1.svg" alt="">
               <img class="px-2" src="./images/facebook 1.svg" alt="">
@@ -313,8 +315,8 @@
             <img  src="./images/member2.png" alt="Shoes" class="rounded-xl h-25  w-25" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Safia Chowdhury</h2>
-            <p>Fruits Expert</p>
+            <h2 class="card-title text-white">Safia Chowdhury</h2>
+            <p class="text-white">Fruits Expert</p>
             <div class="flex ">
               <img class="px-2" src="./images/twitter (1) 1.svg" alt="">
               <img class="px-2" src="./images/facebook 1.svg" alt="">
@@ -331,8 +333,8 @@
             <img src="./images/member3.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Rokib Hossain</h2>
-            <p>Fruits Expert</p>
+            <h2 class="card-title text-white">Rokib Hossain</h2>
+            <p class="text-white">Fruits Expert</p>
             <div class="flex ">
               <img class="px-2" src="./images/twitter (1) 1.svg" alt="">
               <img class="px-2" src="./images/facebook 1.svg" alt="">
@@ -349,8 +351,8 @@
             <img src="./images/member4.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Chaity</h2>
-            <p>Fruits Expert</p>
+            <h2 class="card-title text-white">Chaity</h2>
+            <p class="text-white">Fruits Expert</p>
             <div class="flex ">
               <img class="px-2" src="./images/twitter (1) 1.svg" alt="">
               <img class="px-2" src="./images/facebook 1.svg" alt="">
@@ -376,7 +378,7 @@
 
      <section>
       <div class="max-w-screen-xl mx-auto">
-        <div class="w-[450px] text-center mx-auto  my-10">
+        <div class="md:w-[450px] text-center mx-auto  my-10">
           <h1 class="text-2xl font-extrabold">Why Choose Us</h1>
           <p class="my-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
@@ -484,7 +486,7 @@
 
   </main>
 
-  <footer class="footer footer-center mt-10 p-10 bg- text-white  bg-slate-900">
+  <footer class=" footer-center  mt-10 p-10 bg- text-white  bg-slate-900">
     <div>
       <div class="navbar-center">
         <a class="btn btn-ghost normal-case text-xl"><img class="h-9 w-9" src="./images/logo.png" alt=""> <span class="font-bold text-white">Fruit Burst</span></a>
@@ -492,7 +494,7 @@
         
       </div>
     
-        <ul class="flex gap-12 my-3">
+        <ul class="flex gap-3 flex-wrap md:gap-12 my-3 justify-center">
           <li>Home</li>
           <li>About Us</li>
           <li>Shop</li>
@@ -503,7 +505,7 @@
 
         </ul>
       </p> 
-      <p class="flex gap-4">
+      <p class="flex gap-4 justify-center">
         <img class="h-8 w-8" src="./icons/facebook 1.png" alt="">
     
         <img class="h-8 w-8" src="./icons/Group 49.png" alt="">
